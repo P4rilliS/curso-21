@@ -1,0 +1,67 @@
+.instagram-logo {
+    height: 10rem;
+    width: 10rem;
+    background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%);
+    border-radius: 30%;
+    position: relative;
+}
+
+.instagram-logo:before {
+    content: '';
+    border: 0.5rem solid #fff;
+    border-radius: 30%;
+    width: 6.25rem;
+    height: 6.25rem;
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    }
+.instagram-logo:after {
+    content: '';
+    border: 0.5rem solid #fff;
+    border-radius: 100%;
+    width: 2.5rem;
+    height: 2.5rem;
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    }
+.instagram-logo span {
+    content: '';
+    border: 0.5rem solid #fff;
+    border-radius: 100%;
+    width: 0;
+    height: 0;
+    left: 0;
+    right: -4rem;
+    position: absolute;
+    margin: auto;
+    top: -4rem;
+    bottom: 0;
+    }
+
+.facebook-logo {
+    height: 10rem;
+    width: 10rem;
+    background: #3b5998;
+    border-radius: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-size: 5rem;
+    color:#fff;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+.facebook-logo span {
+    position: absolute;
+
+}
