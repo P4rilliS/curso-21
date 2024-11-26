@@ -1,4 +1,109 @@
-.instagram-logo {
+/* 
+Selector Global: * 
+selector de etiqueta o generico: <etiqueta> (0,0,1)
+selector de ID: # (1,0,0)
+selector de Clase: .clase (0,1,0)
+*/
+
+
+
+h2 {
+    color: rgb(134, 9, 9)}
+
+h1 {
+    color: rgb(7, 66, 67)
+}
+html{
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+/*body{
+    background-color: black;
+    color:aliceblue} */
+
+
+    /* selector Global   prioridad mas baja*/
+*{
+    box-sizing: border-box;
+}
+
+/* selector de etiqueta o generico */
+p{
+    color: rgb(218, 17, 254);
+}
+
+/* selector de ID es el mas especicico de los generales*/
+#parrafo-1{
+    color: red;
+}
+
+/* selector de clase es mas especifico que el selector de etiqueta*/
+.item{
+    background: blue;
+    color: white
+}
+
+
+/* utilice un punto (.) para la clases y numeral (#) para el ID*/
+
+/* combinaciones de selectores */
+div nav h3 {
+    color: green;
+}
+
+
+.contenedor #navegacion .encapsulado {
+    color: rgb(13, 119, 211);
+}
+
+.lista li{
+    font-size: large;
+}
+
+.main {
+    width: 500px; /*Ancho elemento*/
+    height: 300px; /* Alto elemento*/
+    background: #458c78; /*fondo elemento*/
+    color: #dbee2d;/* color de letra elementos interno*/
+    font-size: 20px;/* tamaño de letra elementos interno*/
+    border-radius: 7%; /*borde del recuadro elementos interno*/
+    text-align: center; /*alineacion del texto elementos interno*/
+    padding: 25px; /*relleno elementos interno*/
+    margin: 10px; /*margen elementos interno*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .instagram-logo {
     height: 10rem;
     width: 10rem;
     background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%);
@@ -64,4 +169,4 @@
 .facebook-logo span {
     position: absolute;
 
-}
+} */

@@ -1,3 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Estilos CSS</title>
+
+<!-- Estilos In Head (en la etiqueta <head) -->
+<style>
+    h2 {
+        color: blue;
+    }
+</style>
+
+<!-- Estilos  Externos (mediante etiqueta <link>) -->
+<link rel="stylesheet" href="normalizar.css"> <!--debe ir aqui para que se cargue de primero-->
+<link rel="stylesheet" href="styles.css"> <!-- debe ir de segundo para que sobreescriba lo anterior-->
+</head>
+<body>
+    <!-- Etilos In Line (en linea, significa en la etiqueta) -->
+    <h1 style="color: rgb(111, 219, 23)"> estilos in line</h1>
+    <h2> Estilo in line</h2>
+    <p>La prioridad en estilos seria primero en linea
+        segundo en head y tercero estilo en css</p>
+        <p>este es otra p</p>
+        
+        <!-- Selector de ID -->
+    <div>
+        <p id="parrafo-1">Esto es un parrafo con ID parrafo-1</p>
+        <p> Esto es otro parrafo sin ID </p>
+    </div>
+    
+    <section>
+        <ul>
+            <li class="item">item-1</li>
+            <li class="item">item-2</li>
+            <li class="item">item-3</li>
+            <li class="item">item-4</li>
+        </ul>
+    </section>
+    <!-- ejemplo de selector general -->
+    <span>hola</span>
+    <a href="https://google.com"> Link </a>
+    <!-- ejemplo de selector encapsulado -->
+    <div class="contenedor">
+        <nav id="navegacion">
+            <h3 class="encapsulado">Titular encapsulado</h3>
+        </nav>
+    </div>
+    <main class="main">
+        <h2>Contenido Principal</h2>
+        <p>Parrafo contenido principal</p>
+    </main>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!--
 Introducción
 Estructura Inicial HTML
@@ -9,26 +139,26 @@ Atajos:
     Shift + Alt + FlechaArriba0Abajo: Duplicar
     Alt + FlechaArriba0Abajo: Cambiar de linea
 -->
-<p>Hola Sergio</p> <!--Esto es esta entre P porque significa Parrafo -->
+<!-- <p>Hola Sergio</p> Esto es esta entre P porque significa Parrafo -->
 
 
 <!-- Esto es un H1 -->
-<h1>Mi primera Pagina web (titulo) H1</h1> <!--Solo debe haber uno por documento-->
-<h2>Subtitulo H2</h2><!-- se puede agregar la cantidad que se requiera-->
-<h3>Sub-Subtitulo H3</h3> 
-<h4>titulo mas pequeño H4</h4>
-<h5>aun mas pequeño H5</h5>
-<h6>el mas pequeño de todos H6</h6>
+<!-- <h1>Mi primera Pagina web (titulo) H1</h1> Solo debe haber uno por documento-->
+<!-- <h2>Subtitulo H2</h2>se puede agregar la cantidad que se requiera -->
+<!-- <h3>Sub-Subtitulo H3</h3>  -->
+<!-- <h4>titulo mas pequeño H4</h4> -->
+<!-- <h5>aun mas pequeño H5</h5> -->
+<!-- <h6>el mas pequeño de todos H6</h6> -->
 <!-- No puede existir un h superior si no hay un inferior -->
 <!-- Lorem: es un relleno -->
-Lorem ipsum 123456789amet consectetur, adipisicing elit. Non aut ad vel corporis cum, sint excepturi, unde dolorem in praesentium, laudantium totam tempore iste nostrum voluptatem ab soluta architecto
+<!-- Lorem ipsum 123456789amet consectetur, adipisicing elit. Non aut ad vel corporis cum, sint excepturi, unde dolorem in praesentium, laudantium totam tempore iste nostrum voluptatem ab soluta architecto -->
 <!-- Etiqueta de imagen
 scr es el link o ruta de la imagen o gif
 alt es el nombre de la imagen
 otros atributos para cambiar el tamaño de imagen
 width altura
 heigt ancho -->
-<img 
+<!-- <img 
     src="./HTML/IMG/bri.jpg"
     alt="negra.jpg"
     width="50"
@@ -61,7 +191,7 @@ heigt ancho -->
     <li><a href="#services">Servicios</a></li>
     <li><a href="#contact">Contacto</a></li>
     </ul>
-</nav>
+</nav> -->
 <!--
 Proyecto HTML: Portafolio 1.0
 
@@ -85,7 +215,7 @@ Nota: La pagina debes subirla a Github Pages para visualizarla en internet
 Fecha de entrega: 22/11/2024
 -->
 
-<article>
+<!-- <article>
     <h2>Título del Artículo</h2>
     <p>Este es el contenido principal del artículo. Aquí puedes describir el tema en detalle.</p>
     <section>
@@ -116,4 +246,4 @@ Fecha de entrega: 22/11/2024
   <div class="outer-circle"></div>
   <div class="inner-circle"></div>
   <div class="small-circle"></div>
-</div>
+</div> -->
