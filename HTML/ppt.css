@@ -33,3 +33,23 @@ button img {
     width: 100px;
     height: 100px;
 }
+
+
+.animacion-ganador1, .animacion-computadora {
+    display: none; /*Oculto por defecto*/
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    line-height: 100vh;
+    animation: fadeOut 2s 3s forwards; /* Se oculta después de 3s */
+}
+
+/* Animación de aparición */
+@keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
