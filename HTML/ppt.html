@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Piedra, Papel o Tijera</title>
+  <link rel="stylesheet" href="https://unpkg.com/ionicons@latest/dist/css/ionicons.min.css">
+
+  <link rel="stylesheet" href="ppt.css">
+</head>
+<body>
+  <div class="game-container">
+    <h1>Piedra, Papel o Tijera</h1>
+    <div class="name">
+      <label for="playerName">Ingresa tu nombre:</label>
+      <input type="text" id="playerName" placeholder="Tu nombre">
+    </div>
+    <h2>Selecciona el tu jugada</h2>
+    <div id="opciones">
+      <button onclick="jugar('Piedra')"><img src="./IMG/piedra.svg" alt="Piedra"></button>
+      <button onclick="jugar('Papel')"><img src="./IMG/papel.svg" alt="Papel"></button>
+      <button onclick="jugar('Tijera')"><img src="./IMG/tijera.svg" alt="Tijera"></button>
+    </div>
+
+    <div id="resultado"></div>
+    <div id="puntaje"></div>
+  </div>
+
+  <script src="ppt.js"></script>
+  <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+
+</body>
+</html>
